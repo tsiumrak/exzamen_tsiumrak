@@ -1,0 +1,29 @@
+.d-flex img{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+.left{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.right_img img{
+    height: 700px;
+}
+.button{
+    border: 1px solid black;
+}
+.left_img img{
+    width: 100%;
+}
+.left_img2 img{
+    width: 100%
+}
+.gallery{
+    text-align: center;
+    padding: 20px;
+}
+.cont1 img{
+    width: 100%;
+    height: 200px;
+}
