@@ -8,6 +8,7 @@
 }
 .row{
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 .col2{
@@ -96,12 +97,17 @@
 .gall{
     text-align: center;
 }
-
+.nambers{
+    font-weight: bold;
+}
 
 .icons_row{
     display: flex;
     text-align: center;
     flex-wrap: wrap;  
+}
+.icons_row i{
+    font-size: 25px;
 }
 .icons_row p{
     padding: 10px;
@@ -511,6 +517,29 @@
     }
 }
   
+.social{
+    text-align: center; 
+}
+.social i{
+    padding: 5px;
+    font-size: 25px;
+}
+.social a{
+    border: 1px solid black;
+    color: black;
+    font-size: 30px;
+}
+.social i:hover{
+    font-size: 35px; 
+}
+.social a:hover{
+    border: none;
+    color: gray;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
   
   
   
